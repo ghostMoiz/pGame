@@ -82,3 +82,5 @@ btnHold.addEventListener('click', function () {
   current0El.textContent = 0;
   current1El.textContent = 0;
 });
+
+console.log('Logging the logs');
