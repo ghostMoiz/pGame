@@ -97,3 +97,14 @@ btnNew.addEventListener('click', function () {
   current0El.textContent = 0;
   current1El.textContent = 0;
 });
+
+document.addEventListener('keydown', function (e) {
+  if (e.code === 'Escape') {
+    console.log(e);
+    score0El.textContent = 0;
+    score1El.textContent = 0;
+
+    current0El.textContent = 0;
+    current1El.textContent = 0;
+  }
+});
